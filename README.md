@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# DUI Stopper
 
-You can use the [editor on GitHub](https://github.com/pmoe7/QHacks-2019-DUI-Stopper/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### *A drunk driving prevention application that identifies whether the user is physically fit to operate a vehicle.*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### What Does It Do:
+Identifies the location of the user and the proximity to public locations that serve alcohol, firing our application. The application then runs a module that tests reaction time and precision of the user to be fit to operate a vehicle safely. The user is given three tries to pass and after passing, the user is given the functionality to unlock their vehicle. Likewise, not passing the tests, the the user will not have that access and would be instead have the application contact an alternate form of transportation of their choice (as highlighted in the personal preferences). To prevent error, the user will be given the opportunity to unlock their car with three different passcodes.
 
-### Markdown
+#### How We Built It:
+- PyCharm with Python
+- Sublime text editor for PHP and web development
+- Figma and photoshop for UI and concepts designs
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### What's Next:
+Integrating machine learning deep within our platform to learn from the user data that is gathered for negative behaviors and pattern discovery and warn the user of it.
+Voice analysis using machine learning to determine whether the user is drunk.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pmoe7/QHacks-2019-DUI-Stopper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Built With
+- php
+- python
+- javascript
+- html5
+- html
+- css
+- bootstrap
+- jquery
+- mysql
+- love
+- smartcar-api
+- google-maps
